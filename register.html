@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER | PAGE</title>
+    <link rel="stylesheet" href="css/resiter.css">
+</head>
+
+<body>
+    <div class="main-register">
+        <div class="container">
+            <h1>REGISTER FORM</h1>
+            <div class="contact">
+                <form action="#" method="post" autocomplete="on">
+                    <!-- fname -->
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" required placeholder="EnterYour  First Name">
+                    <!-- lname -->
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" required placeholder="Enter Your Last Name"><br>
+                    <!-- phone number -->
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="number" id="phone" required placeholder="Enter Your Valid Number">
+                    <!-- email -->
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="Enter Your Valid Email"><br>
+                    <!-- date of birth  -->
+                    <label for="date">Date Of Birth</label>
+                    <input type="date" name="date of birth" id="date" required>
+                    <!-- country -->
+                    <label for="country">Select Your Country</label>
+                    <select name="country" id="country" required>
+                        <option value="Bangladesh" selected>Bangladesh</option>
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Usa">Usa</option>
+                    </select> <br>
+
+
+                    <!-- password -->
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required placeholder="Password">
+                    <!-- confirm password -->
+                    <label for="con-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="con-password" required
+                        placeholder="Confirm Password"> <br>
+
+                    <!-- radio  -->
+                    
+                        <label  for="male"> Gender</label>
+                        <div class="radio-parent">
+                        <label  class="radio-first" for="male">Male</label>
+                        <input type="radio" name="gender" id="male" selected required>
+                        <label  class="radio-second" for="female">Female</label>
+                        <input type="radio" name="gender" id="female">
+                        <label  class="radio-third" for="other">Other</label>
+                        <input type="radio" name="gender" id="other">
+                        
+                        </div>
+                    <!-- checkbox -->
+                    <input type="checkbox" name="checkbox" id="checkbox" required>
+                    <span> I agree to all the <a href="#">Term,</a> <a href="#">Privacy Policy</a> and
+                        <a href="#">Fees,</a>
+                    </span> <br>
+                    <input type="submit" id="submit" value="Register">
+                </form>
+            </div>
+            <h4>Already have an account? <a class="login-btn" href="login.html">Login</a></h4>
+        </div>
+    </div>
+</body>
+
+</html>
